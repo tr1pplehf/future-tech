@@ -38,7 +38,6 @@ class VideoPlayer {
 }
 
 class VideoPlayerCollection {
-
   constructor() {
     this.init()
   }
@@ -48,7 +47,6 @@ class VideoPlayerCollection {
       new VideoPlayer(element)
     })
   }
-
 }
 
 export default VideoPlayerCollection

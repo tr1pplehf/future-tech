@@ -76,6 +76,10 @@
       @include mobile {
         grid-template-columns: 1fr;
       }
+
+      .card__cell-title {
+        font-weight: 500;
+      }
     }
 
     &--2-cols-alt {

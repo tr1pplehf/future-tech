@@ -37,12 +37,12 @@
   &__list {
     display: grid;
     grid-template-columns: repeat(var(--columns), 1fr);
-    align-items: start;
   }
 
   &__item {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: start;
     row-gap: rem(10);
     padding: rem(50);
 
